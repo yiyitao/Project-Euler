@@ -22,7 +22,7 @@ if __name__ == '__main__':
     p1=3
     p2=5
     counter = 0
-    for i in xrange(7, 100, 2):
+    for i in range(7, 100, 2):
         if isPrime(i):
             P = (p1**3)*(p2**2)
             #  if "200" in str(P):
